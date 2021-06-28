@@ -17,7 +17,7 @@
 
       <style>
       /* NOTE: The styles were added inline because Prefixfree needs access to your styles and they must be inlined if they are on local disk! */
-     html, body, .page {
+      html, body, .page {
   width: 100%;
   height: 100%;
   margin: 0;
@@ -31,7 +31,7 @@
 }
 
 * {
-	font-family: 'Proxima Nova Rg';
+  font-family: 'open sans', 'lato', 'helvetica', sans-serif;
 }
 
 .page {
@@ -46,9 +46,9 @@
   left: 200%;
 }
 
-#p1 { background: #f4a261; }
-#p2 { background: #1a1d28; }
-#p3 { background: #c39687; }
+#p1 { background: darkslateblue; }
+#p2 { background: tomato; }
+#p3 { background: gold; }
 #p4 { background: deeppink; }
 #p5 { background: rebeccapurple; }
 
@@ -102,10 +102,10 @@ ul .icon:hover {
   transition-delay: .25s;
 }
 
-#t2:target #two,
-#t3:target #three,
-#t4:target #four,
-#t4:target #five {
+#t2:target #dos,
+#t3:target #tres,
+#t4:target #cuatro,
+#t4:target #cinco {
   transform: scale(1.2) !important;
   -webkit-transform: scale(1.2) !important;
   -moz-transform: scale(1.2) !important;
@@ -146,8 +146,7 @@ a {
 }
 
 .hint {
-  	font-size: 16px;
-	font-family: 'Proxima Nova Lt';
+  font-size: 13px;
 }
 
 #p4 .hint {
@@ -176,7 +175,7 @@ a {
   bottom: 0;
   right: 10%;
   left: 0;
-  width: 300px;
+  width: 270px;
   height: 170px;
   margin: auto;
   text-align: center;
@@ -219,56 +218,34 @@ a {
 </head>
 
 <body>
-<div class="ct" id="t1">
+
+  <div class="ct" id="t1">
   <div class="ct" id="t2">
     <div class="ct" id="t3">
       <div class="ct" id="t4">
          <div class="ct" id="t5">
           <ul id="menu">
-            <a href="#t1"><li class="icon fa fa-home" id="one"></li></a>
-            <a href="#t2"><li class="icon fa fa-star" id="two"></li></a>
-            <a href="#t3"><li class="icon fas fa-music" id="three"></li></a>
-            <a href="#t4"><li class="icon fab fa-dribbble" id="four"></li></a>
-            <a href="#t5"><li class="icon fab fa-bootstrap" id="five"></li></a>
-          </ul>
-          <div class="page" id="p1">
-			  <section class="icon fa">
-				<span class="mango">Mango</span>
-				<span class="title">Hi there cutie,</span>
-				<span class="hint">This is my updated version of the 'bb' website along with some other stuff.</br>I hope you'll like it.</span>
-			</section>  
-          </div>
-          <div class="page" id="p2">
-            <section class="icon fa fa-keyboard-o">
-				<span class="title">Stars</span>
-				<span class="hint">This is what the sky looked like above our heads on this special night.</span>
-				<div><img src=""></div>
-			</section>
-          </div>  
-          <div class="page" id="p3">
-            <section class="icon fab fa-spotify">
-				<span class="title">Music</span>
-				<span class="hint">This is one of the songs that came out that exact same date</span>
-				<div class="spotify-card"><img src="https://storage.googleapis.com/promocards-byspotify-com.appspot.com/sharing/f1b18516c4d3f59072b37395b0b08f14aa3d95b4.png"></div>
-            </section>
-          </div>
-          <div class="page" id="p4">
-            <section class="icon fa fa-dribbble">
-              <span class="title">Dribbble</span>
-              <p class="hint">
-                <a href="https://dribbble.com/albertohartzet" target="_blank">Im ready to play, <span class="hint line-trough">invite me </span> find me</a>
-              </p>
-              <p class="hint">Already invited by <a href="http://www.dribbble.com/mrpeters" target="_blank">Stan Peters</a></p>
-            </section>
-          </div> 
-          <div class="page" id="p5">
-            <section class="icon fa fa-plus-circle">
-              <span class="title">More</span>
-              <p class="hint">
-                <span>You love one page & CSS only stuff? </span><br/>
-                <a href="https://codepen.io/hrtzt/details/pgXMYb/" target="_blank">check this pen "Pure CSS One page vertical navigation"</a>
-              </p>
-            </section>
+            <a href="#t1"><li class="icon fa fa-home" id="uno"></li></a>
+   <a href="#t2"><li class="icon fa fa-keyboard-o" id="dos"></li></a>
+   <a href="https://medium.com/tektie"><li class="icon fa fa-medium" id="tres"></li></a>
+   <a href="https://t.me/tektie"><li class="icon fa fa-paper-plane" id="cuatro"></li></a>
+	  <a href="https://opensea.io"><li class="icon fa fa-picture-o" id="cinco"></li></a>
+ </ul>
+  <div class="page" id="p1">
+     <li class="icon fa fa-home"><span class="title">COMING SOON</span><span class="hint"></li>   
+  </div>
+  <div class="page" id="p2">
+    <li class="icon fa fa-keyboard-o"><span class="title">Contact</span></li>
+  </div>  
+  <div class="page" id="p3">
+    <li class="icon fa fa-medium"><span class="title">Medium</span></li>
+  </div>
+  <div class="page" id="p4">
+   <a href="https://t.me/tektied" li class="icon fa fa-paper-plane"><span class="title">Telegram</span><span class="hint"><a href="https://dribbble.com/rupok" target="_blank"></span></li>
+  </div>  
+	<p class="credit"> Copyright 2021<br> <a href="https://codepen.io/hrtzt/">TekTie</a></p>
+</section>
+       
           </div> 
         </div>
       </div>
