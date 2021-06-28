@@ -12,7 +12,7 @@ html, body, .page {
 }
 
 * {
-  font-family: 'open sans', 'lato', 'helvetica', sans-serif;
+	font-family: 'Proxima Nova Rg';
 }
 
 .page {
@@ -27,9 +27,9 @@ html, body, .page {
   left: 200%;
 }
 
-#p1 { background: darkslateblue; }
-#p2 { background: tomato; }
-#p3 { background: gold; }
+#p1 { background: #f4a261; }
+#p2 { background: #1a1d28; }
+#p3 { background: #c39687; }
 #p4 { background: deeppink; }
 #p5 { background: rebeccapurple; }
 
@@ -83,10 +83,10 @@ ul .icon:hover {
   transition-delay: .25s;
 }
 
-#t2:target #dos,
-#t3:target #tres,
-#t4:target #cuatro,
-#t4:target #cinco {
+#t2:target #two,
+#t3:target #three,
+#t4:target #four,
+#t4:target #five {
   transform: scale(1.2) !important;
   -webkit-transform: scale(1.2) !important;
   -moz-transform: scale(1.2) !important;
@@ -127,7 +127,8 @@ a {
 }
 
 .hint {
-  font-size: 13px;
+  	font-size: 16px;
+	font-family: 'Proxima Nova Lt';
 }
 
 #p4 .hint {
@@ -156,7 +157,7 @@ a {
   bottom: 0;
   right: 10%;
   left: 0;
-  width: 270px;
+  width: 300px;
   height: 170px;
   margin: auto;
   text-align: center;
@@ -190,4 +191,3 @@ a {
   -o-transform: translateX(0) !important;
   transition-delay: 1s;
 }
-
