@@ -1,0 +1,22 @@
+<body>
+  <main>
+    <nav>
+      <a href="#first">Option A</a>
+      <a href="#second">Option B</a>
+      <a href="#third">Option C</a>
+    </nav>
+  </main>
+  <article>
+    <section id="first">
+      <h1>Pittsburgh Penguins 50 Years</h1>
+	    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/329887/PenguinsLogo50Years_Plain.png">
+    </section>
+    <section id="second">
+      <h1>Pittsburgh Penguins Gold Standard Logo</h1>
+	    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/329887/PenguinsLogo_Gold.png">
+    </section>
+    <section id="third">
+      <h1>Pittsburgh Penguins 2017 Stlaney Cup Champions</h1>
+	    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/329887/PenguinsStanleyCupChamps2017.png">
+    </section>
+  </article>
