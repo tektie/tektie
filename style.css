@@ -11,6 +11,10 @@ html, body, .page {
   overflow: hidden; 
 }
 
+a {
+  color: hotpink;
+}
+
 * {
 	font-family: 'Proxima Nova Rg';
 }
