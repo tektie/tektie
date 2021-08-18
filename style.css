@@ -131,11 +131,12 @@ a {
 
 .title {
   font-size: 38px;
+  font-family: 'Nanum Brush Script', cursive;
 }
 
 .hint {
   	font-size: 16px;
-	font-family: 'Proxima Nova Lt';
+	font-family: 'Nanum Brush Script', cursive;
 }
 
 #p4 .hint {
